@@ -1,21 +1,15 @@
 +++
+date = 2016-09-07T00:00:00Z
 fragment = "footer"
-#disabled = true
-date = "2016-09-07"
-weight = 1200
-#background = ""
-
 menu_title = "Link Title"
-
+weight = 1200
 [asset]
-  title = "Logo Title"
-  image = "logo.svg"
-  text = "Logo Subtext"
-  url = "#"
-+++
+image = "logo.png"
+text = "vivre versailles"
+title = "Logo vivre versailles"
+url = "https://vivreversailles.org"
 
++++
 #### Description Title
 
-Project description such as:
-Open source theme for your next project
-Provided by Okkur Labs
+Project description such a Open source theme for your next project Provided by Okkur Labs
