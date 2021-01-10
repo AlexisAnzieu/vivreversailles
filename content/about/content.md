@@ -1,15 +1,11 @@
 +++
+date = 2017-10-05T00:00:00Z
 fragment = "content"
-#disabled = true
-date = "2017-10-05"
-weight = 100
-#background = ""
-
 title = "About Syna"
-#subtitle = ""
-+++
+weight = 100
 
-Open Source Theme from Okkur for your next project.
++++
+Open Source Theme from Okkur for our next projects
 
 Syna is based on the awesome work by digitalcraftsman with his Hugo Agency Theme.
 
@@ -17,7 +13,7 @@ The Hugo Agency Theme was based on the work of David Miller with his Startupboot
 
 **Provided with <3 by Okkur Labs**
 
----
+***
 
 To actually test out the full single page some Lorem Ipsum:
 
