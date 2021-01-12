@@ -2,6 +2,7 @@
 date = 2018-05-17T00:00:00Z
 fragment = "nav"
 weight = 0
+sticky = true
 [asset]
 image = "logo.png"
 text = "vivre versailles"

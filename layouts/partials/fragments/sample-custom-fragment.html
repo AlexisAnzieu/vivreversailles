@@ -1,24 +1,27 @@
 {{- $fragment := .self.Params -}}
 {{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
-{{- $bg := $fragment.background | default "secondary" }}
 <section id="{{ $name }}">
-  <div class="overlay container-fluid
-    {{- printf " bg-%s" $bg -}}
-  ">
+  <div class="overlay container-fluid bg-light">
   <div class="container py-5">
     <div class="row">
-      <div class="col text-center
-        {{- if eq $bg "dark" -}}
-          {{- printf " text-%s" "light" -}}
-        {{- else -}}
-          {{- printf " text-%s" "dark" -}}
-        {{- end -}}
-      ">
-        <h4>Custom fragments</h4>
+      <div class="col text-center">
+        <h1>{{ .Params.titre_haut_de_page}}</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col text-center">
+    <div style="padding-top:50px" class="row">
+      <div class="col-md-9 pr-2">
+        <div style="background-color:{{.Params.couleur_encadre}};padding:25px">{{ .Params.texte_encadre}}</div>
+        <br>
+        Nous avons deux élu.es au Conseil Municipal de Versailles, Marie Pourchot et Renaud Anzieu (par ailleurs aussi élu à la communauté d’agglomération de Versailles Grand Parc).
+        Elections municipales mars 2020 : nous sommes en 3ème position sur 6 listes avec 7,82% de votes exprimés, sans soutien d’aucun parti. Détails.
+        <br> <br>
+        
+        Nous sommes des centaines de citoyen.nes de Versailles à retrouver sur cinq valeurs : la Bienveillance, notre Histoire, l’Initiative, la Positivité et la Simplicité (BHIPS) et sur cinq axes clefs l’Ouverture, la Démocratie, l’Alimentation, la Solidarité et la Sobriété (ODASS).
+        <br> <br>
+        Nous souhaitons, ici, mettre en avant les réalisations des citoyennes et citoyens qui œuvrent au quotidien pour notre ville, pour ses habitants et pour notre environnement.
+      </div>
+
+      <div class="col-md-3">
         <h5>Introducing custom fragments</h5>
         <p>This is a custom fragments. Dynamically loaded since there was a call for it in the index content directory.</p>
       </div>
