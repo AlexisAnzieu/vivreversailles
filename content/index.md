@@ -5,7 +5,7 @@ date = "2017-10-05"
 weight = 110
 background = "light"
 
-title = "Bienvenue"
+title = "Index"
 #title_align = "left" # Default is center, can be left, right or center
 +++
 <br><br>
