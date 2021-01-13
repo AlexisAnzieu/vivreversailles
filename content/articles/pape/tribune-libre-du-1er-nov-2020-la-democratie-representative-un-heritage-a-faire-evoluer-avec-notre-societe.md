@@ -3,7 +3,7 @@ date = 2021-01-13T05:00:00Z
 display_date = true
 fragment = "content"
 title = "Tribune libre du 1er nov 2020 – La démocratie représentative ; un héritage à faire évoluer avec notre société"
-weight = nil
+weight = 522
 
 +++
 **La démocratie représentative ; un héritage à faire évoluer avec notre société**
