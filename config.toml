@@ -12,41 +12,41 @@ lastmod = ["lastmod", ":git", "date"]
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.footer_social]]
-name = "youtube"
-pre = "fab fa-youtube"
-url = "https://www.youtube.com/playlist?list=PLBDJoQ5JUmG3vkh-tdzbDsiB4VQAgGT8C"
-weight = 2
-[[menu.footer_social]]
-name = "twitter"
-pre = "fab fa-twitter"
-url = "https://twitter.com/EcologieVivre"
-weight = 3
+name = "facebook"
+pre = "fab fa-facebook-f"
+url = "https://www.facebook.com/VivreVersailles.ec"
+weight = 1
 [[menu.footer_social]]
 name = "instagram"
 pre = "fab fa-instagram"
 url = "https://www.instagram.com/vivre_versailles"
 weight = 4
 [[menu.footer_social]]
-name = "facebook"
-pre = "fab fa-facebook-f"
-url = "https://www.facebook.com/VivreVersailles.ec"
-weight = 1
-[[menu.main]]
-name = "Contact"
-url = "/contact"
+name = "twitter"
+pre = "fab fa-twitter"
+url = "https://twitter.com/EcologieVivre"
 weight = 3
+[[menu.footer_social]]
+name = "youtube"
+pre = "fab fa-youtube"
+url = "https://www.youtube.com/playlist?list=PLBDJoQ5JUmG3vkh-tdzbDsiB4VQAgGT8C"
+weight = 2
 [[menu.main]]
-name = "Campagne"
-url = "/campagne"
-weight = 4
+name = "Blog"
+url = "/blog"
+weight = 6
 [[menu.main]]
 name = "Équipe"
 url = "/equipe"
 weight = 5
 [[menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 6
+name = "Campagne"
+url = "/campagne"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 3
 [outputs]
 home = ["HTML", "JSON"]
 [params]
