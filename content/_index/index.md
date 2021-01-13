@@ -4,8 +4,6 @@ date = 2017-10-05T00:00:00Z
 fragment = "content"
 name = "Accueil"
 weight = 110
-[menu.main]
-weight = 1
 
 +++
 <h1 align="center"> Bienvenue </h1>

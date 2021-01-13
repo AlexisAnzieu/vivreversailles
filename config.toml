@@ -11,30 +11,6 @@ date = ["date", "lastmod"]
 lastmod = ["lastmod", ":git", "date"]
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.main]]
-name = "Accueil"
-url = "/"
-weight = 2
-[[menu.main]]
-name = "Agenda"
-url = "/agenda"
-weight = 3
-[[menu.main]]
-name = "Articles"
-url = "/articles"
-weight = 4
-[[menu.main]]
-name = "Équipe"
-url = "/equipe"
-weight = 5
-[[menu.main]]
-name = "Campagne"
-url = "/campagne"
-weight = 6
-[[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 7
 [[menu.footer_social]]
 name = "facebook"
 pre = "fab fa-facebook-f"
@@ -55,6 +31,30 @@ name = "youtube"
 pre = "fab fa-youtube"
 url = "https://www.youtube.com/playlist?list=PLBDJoQ5JUmG3vkh-tdzbDsiB4VQAgGT8C"
 weight = 2
+[[menu.main]]
+name = "Accueil"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "Agenda"
+url = "/agenda"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url = "/articles"
+weight = 3
+[[menu.main]]
+name = "Équipe"
+url = "/equipe"
+weight = 4
+[[menu.main]]
+name = "Campagne"
+url = "/campagne"
+weight = 5
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 6
 [outputs]
 home = ["HTML", "JSON"]
 [params]
