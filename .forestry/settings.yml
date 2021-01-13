@@ -7,6 +7,9 @@ sections:
 - type: document
   path: content/_index/index.md
   label: Accueil
+- type: document
+  path: content/agenda/agenda.md
+  label: Agenda
   match: "**/*"
 - type: directory
   path: content
@@ -16,11 +19,6 @@ sections:
 - type: directory
   path: content/about
   label: About
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/_index
-  label: Index
   create: all
   match: "**/*"
 - type: directory
