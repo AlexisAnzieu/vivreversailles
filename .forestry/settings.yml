@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: content/articles
+  label: Articles
+  create: all
+  match: "**/content.md"
 - type: document
   path: content/_index/index.md
   label: Accueil
