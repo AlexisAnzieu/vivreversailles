@@ -32,9 +32,17 @@ pre = "fab fa-youtube"
 url = "https://www.youtube.com/playlist?list=PLBDJoQ5JUmG3vkh-tdzbDsiB4VQAgGT8C"
 weight = 2
 [[menu.main]]
+name = "Accueil"
+url = "/"
+weight = 2
+[[menu.main]]
+name = "Agenda"
+url = "/agenda"
+weight = 3
+[[menu.main]]
 name = "Articles"
 url = "/articles"
-weight = 6
+weight = 4
 [[menu.main]]
 name = "Équipe"
 url = "/equipe"
@@ -42,19 +50,11 @@ weight = 5
 [[menu.main]]
 name = "Campagne"
 url = "/campagne"
-weight = 4
+weight = 6
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 3
-[[menu.main]]
-name = "Agenda"
-url = "/agenda"
-weight = 2
-[[menu.main]]
-name = "Accueil"
-url = "/"
-weight = 1
+weight = 7
 [outputs]
 home = ["HTML", "JSON"]
 [params]
