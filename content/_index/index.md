@@ -2,15 +2,17 @@
 background = "light"
 date = 2017-10-05T00:00:00Z
 fragment = "content"
-title = "Index"
+name = "Accueil"
 weight = 110
 [menu.main]
-name = "Accueil"
 weight = 1
 
 +++
-<br><br>
+<h1 align="center"> Bienvenue </h1>
+<br>
+
 Site du mouvement versaillais citoyen écologique et non partisan.
+
 
 Nous avons deux élu.es au Conseil Municipal de Versailles, Marie Pourchot et Renaud Anzieu (par ailleurs aussi élu à la communauté d’agglomération de Versailles Grand Parc).
 Elections municipales mars 2020 : nous sommes en 3ème position sur 6 listes avec 7,82% de votes exprimés, sans soutien d’aucun parti. Détails.

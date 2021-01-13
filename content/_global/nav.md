@@ -6,7 +6,7 @@ sticky = true
 [asset]
 image = "logo.png"
 text = "vivre versailles"
-url = "https://vivreversailles.org"
+url = "https://vivreversailles.org/"
 [repo_button]
 icon = "fab fa-github"
 text = "site opensource"
