@@ -1,120 +1,73 @@
-# Site settings
 baseurl = "/"
-languageCode = "en-us"
-title = "Okkur - Syna"
-theme = "syna"
-enableGitInfo = true
-version = "0.17.3"
-
-# Google Analytics tracking
-googleAnalytics = ""
-
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-
-[outputs]
-  home = ["HTML", "JSON"]
-
+enableGitInfo = true
+googleAnalytics = ""
+languageCode = "en-us"
+theme = "syna"
+title = "Okkur - Syna"
+version = "0.17.3"
 [frontmatter]
 date = ["date", "lastmod"]
 lastmod = ["lastmod", ":git", "date"]
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-     unsafe = true
-
-[params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
-
-  [params.style]
-    #background = "secondary"
-
-  # Theme customizations
-  # Assets relative to 'static/'
-  [params.custom]
-    favicon = "favicon.ico"
-    favicon_ico_sizes = "16x16 32x32"
-    favicon_png = "favicon.png"
-    favicon_svg = "favicon.svg"
-
-  # Piwik tracking
-  [params.analytics.piwik]
-    #url = ""
-    #id = ""
-    #domain = "" # Track subdomains via "*.example.com"
-    # Optional hash for integrity check
-    #hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
-  # Optional, global disable switch for fontawesome related files
-  # For custom fontawesome js files use the custom.js method
-  [params.fontawesome]
-    disabled = false
-    pro = false
-
-  [params.colors]
-    primary = "#00838F"
-    secondary = "#868e96"
-    success = "#008f54"
-    info = "#00c9dc"
-    warning = "#fdf314"
-    danger = "#dc1200"
-    light = "#f8f9fa"
-    dark = "#343a40"
-
-# main/prepend/postpend menus are displayed in nav fragment.
-# Keep an eye out for updates. These will be moved out to make navbar more
-# configurable.
-[[menu.main]]
-  url = "/"
-  name = "Accueil"
-  weight = 10
-
-[[menu.main]]
-  url = "/agenda"
-  name = "Agenda"
-  weight = 20
-
-[[menu.main]]
-  url = "/blog"
-  name = "Blog"
-  weight = 30
-
-[[menu.main]]
-  url = "/equipe"
-  name = "Équipe"
-  weight = 30
-
-[[menu.main]]
-  url = "/campagne"
-  name = "Campagne"
-  weight = 30
-
-[[menu.main]]
-  url = "/contact"
-  name = "Contact"
-  weight = 30
-
+[markup.goldmark.renderer]
+unsafe = true
 [[menu.footer_social]]
-  weight = 20
-  name = "facebook"
-  pre = "fab fa-facebook-f"
-  url = "https://www.facebook.com/VivreVersailles.ec"
-
-[[menu.footer_social]]
-  weight = 30
-  name = "instagram"
-  pre = "fab fa-instagram"
-  url = "https://www.instagram.com/vivre_versailles"
-
-[[menu.footer_social]]
-weight = 30
-name = "twitter"
-pre = "fab fa-twitter"
-url = "https://twitter.com/EcologieVivre"
-
-[[menu.footer_social]]
-weight = 30
 name = "youtube"
 pre = "fab fa-youtube"
 url = "https://www.youtube.com/playlist?list=PLBDJoQ5JUmG3vkh-tdzbDsiB4VQAgGT8C"
+weight = 2
+[[menu.footer_social]]
+name = "twitter"
+pre = "fab fa-twitter"
+url = "https://twitter.com/EcologieVivre"
+weight = 3
+[[menu.footer_social]]
+name = "instagram"
+pre = "fab fa-instagram"
+url = "https://www.instagram.com/vivre_versailles"
+weight = 4
+[[menu.footer_social]]
+name = "facebook"
+pre = "fab fa-facebook-f"
+url = "https://www.facebook.com/VivreVersailles.ec"
+weight = 1
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 3
+[[menu.main]]
+name = "Campagne"
+url = "/campagne"
+weight = 4
+[[menu.main]]
+name = "Équipe"
+url = "/equipe"
+weight = 5
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 6
+[outputs]
+home = ["HTML", "JSON"]
+[params]
+description = "Open Source Theme for your next project"
+name = "Okkur Labs"
+[params.analytics.piwik]
+[params.colors]
+danger = "#dc1200"
+dark = "#343a40"
+info = "#00c9dc"
+light = "#f8f9fa"
+primary = "#00838F"
+secondary = "#868e96"
+success = "#008f54"
+warning = "#fdf314"
+[params.custom]
+favicon = "favicon.ico"
+favicon_ico_sizes = "16x16 32x32"
+favicon_png = "favicon.png"
+favicon_svg = "favicon.svg"
+[params.fontawesome]
+disabled = false
+pro = false
+[params.style]
