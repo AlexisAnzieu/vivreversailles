@@ -1,5 +1,5 @@
 +++ 
-title = "Syna Theme" 
+title = "Index" 
 date = "2017-09-07" 
-description = "Open Source Theme from Okkur for your next project"
+description = "Site officiel de vivre versailles"
 +++

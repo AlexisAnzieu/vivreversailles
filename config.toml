@@ -11,26 +11,6 @@ date = ["date", "lastmod"]
 lastmod = ["lastmod", ":git", "date"]
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.footer_social]]
-name = "facebook"
-pre = "fab fa-facebook-f"
-url = "https://www.facebook.com/VivreVersailles.ec"
-weight = 1
-[[menu.footer_social]]
-name = "instagram"
-pre = "fab fa-instagram"
-url = "https://www.instagram.com/vivre_versailles"
-weight = 4
-[[menu.footer_social]]
-name = "twitter"
-pre = "fab fa-twitter"
-url = "https://twitter.com/EcologieVivre"
-weight = 3
-[[menu.footer_social]]
-name = "youtube"
-pre = "fab fa-youtube"
-url = "https://www.youtube.com/playlist?list=PLBDJoQ5JUmG3vkh-tdzbDsiB4VQAgGT8C"
-weight = 2
 [[menu.main]]
 name = "Accueil"
 url = "/"
@@ -55,6 +35,26 @@ weight = 6
 name = "Contact"
 url = "/contact"
 weight = 7
+[[menu.footer_social]]
+name = "facebook"
+pre = "fab fa-facebook-f"
+url = "https://www.facebook.com/VivreVersailles.ec"
+weight = 1
+[[menu.footer_social]]
+name = "instagram"
+pre = "fab fa-instagram"
+url = "https://www.instagram.com/vivre_versailles"
+weight = 4
+[[menu.footer_social]]
+name = "twitter"
+pre = "fab fa-twitter"
+url = "https://twitter.com/EcologieVivre"
+weight = 3
+[[menu.footer_social]]
+name = "youtube"
+pre = "fab fa-youtube"
+url = "https://www.youtube.com/playlist?list=PLBDJoQ5JUmG3vkh-tdzbDsiB4VQAgGT8C"
+weight = 2
 [outputs]
 home = ["HTML", "JSON"]
 [params]
