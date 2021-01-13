@@ -9,7 +9,7 @@ sections:
   label: Articles
   create: all
   match: "**/*"
-  exclude: index
+  exclude: _index
 - type: document
   path: content/_index/index.md
   label: Accueil
