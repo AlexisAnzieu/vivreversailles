@@ -47,10 +47,6 @@ weight = 5
 name = "Blog"
 url = "/blog"
 weight = 6
-[[menu.main]]
-name = "Accueil"
-url = "/"
-weight = 1
 [outputs]
 home = ["HTML", "JSON"]
 [params]
