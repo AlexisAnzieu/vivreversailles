@@ -16,9 +16,8 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: content/campagne
+  path: content/campagne/index.md
   label: Campagne
-  match: "**/*"
 - type: directory
   path: content/equipe
   label: Équipe
