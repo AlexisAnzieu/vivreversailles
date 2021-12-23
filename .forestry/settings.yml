@@ -4,22 +4,26 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: content/equipe
-  label: Équipe
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/articles
-  label: Articles
-  create: all
-  match: "**/*"
 - type: document
   path: content/_index/index.md
   label: Accueil
 - type: document
   path: content/agenda/agenda.md
   label: Agenda
+- type: directory
+  path: content/articles
+  label: Articles
+  create: all
+  match: "**/*"
+- type: document
+  path: content/campagne
+  label: Campagne
+  match: "**/*"
+- type: directory
+  path: content/equipe
+  label: Équipe
+  create: all
+  match: "**/*"
 - type: directory
   path: content/_global
   label: Global
