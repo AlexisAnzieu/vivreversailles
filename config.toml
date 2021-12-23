@@ -4,7 +4,7 @@ enableGitInfo = true
 googleAnalytics = ""
 languageCode = "en-us"
 theme = "syna"
-title = "Okkur - Syna"
+title = "Vivre Versailles"
 version = "0.17.3"
 staticDir = ["static", "admin"]
 [frontmatter]
@@ -59,8 +59,8 @@ weight = 6
 [outputs]
 home = ["HTML", "JSON"]
 [params]
-description = "Open Source Theme for your next project"
-name = "Okkur Labs"
+description = "Site officiel de vivre versailles"
+name = "Vivre versailles"
 [params.analytics.piwik]
 [params.colors]
 danger = "#dc1200"
