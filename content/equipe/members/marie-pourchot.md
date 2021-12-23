@@ -7,6 +7,4 @@ weight = 30
 image = "tinygopher.png"
 
 +++
-Really tiny Gopher
-
-Some more text to showcase the capabilities: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a lorem urna. Quisque in neque malesuada, sollicitudin nunc porttitor, ornare est. Praesent ante enim, bibendum sed hendrerit et, iaculis laoreet felis. Morbi efficitur dui sit amet orci porttitor, nec tincidunt turpis elementum.
+J’ai été très tôt sensibilisée aux sujets environnementaux et sociaux. Les valeurs familiales d’honnêteté, de sens du mérite, de justice et de respect de la nature ont forgé ma personnalité et ma détermination à agir pour un monde plus écologique.
