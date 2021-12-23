@@ -68,7 +68,7 @@ dark = "#343a40"
 info = "#00c9dc"
 light = "#f8f9fa"
 primary = "#00838F"
-secondary = "#868e96"
+secondary = "#fff"
 success = "#008f54"
 warning = "#fdf314"
 [params.custom]
