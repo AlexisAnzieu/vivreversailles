@@ -9,7 +9,6 @@ text = "vivre versailles"
 url = "https://vivreversailles.org/"
 [repo_button]
 icon = "fab fa-github"
-text = "site opensource"
+text = "opensource"
 url = "https://github.com/AlexisAnzieu/vivreversailles"
-
 +++
