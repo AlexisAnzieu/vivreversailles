@@ -18,4 +18,5 @@ fields:
   name: weight
   label: weight
 pages:
+- content/articles/nom-de-l-article.md
 - content/articles/votes-surprenants/ecologie-des-votes-surprenant.md
